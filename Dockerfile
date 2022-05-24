@@ -1,4 +1,4 @@
-FROM node:14.19.2-buster
+FROM node:18.1-buster-slim
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
